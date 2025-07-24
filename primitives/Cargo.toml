@@ -13,7 +13,7 @@ repository = "https://github.com/DioxusLabs/components"
 
 [dependencies]
 dioxus.workspace = true
-dioxus-time = "=0.7.0-alpha.3"
+dioxus-time = { git = "https://github.com/DioxusLabs/sdk" }
 tracing.workspace = true
 
 [build-dependencies]
