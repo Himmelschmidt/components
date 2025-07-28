@@ -22,3 +22,6 @@ lazy-js-bundle = "0.6.2"
 [features]
 default = ["router"]
 router = ["dioxus/router"]
+
+[patch.crates-io]
+dioxus = { git = "https://github.com/DioxusLabs/dioxus" }
