@@ -8,6 +8,9 @@ dioxus-primitives = { path = "primitives" }
 dioxus = { git = "https://github.com/DioxusLabs/dioxus" }
 tracing = { version = "0.1", features = ["std"] }
 
+[patch.crates-io]
+dioxus = { git = "https://github.com/DioxusLabs/dioxus" }
+
 
 [profile]
 
