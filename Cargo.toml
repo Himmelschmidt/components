@@ -10,6 +10,9 @@ tracing = { version = "0.1", features = ["std"] }
 
 [patch.crates-io]
 dioxus = { git = "https://github.com/DioxusLabs/dioxus" }
+dioxus-core = { git = "https://github.com/DioxusLabs/dioxus" }
+dioxus-html = { git = "https://github.com/DioxusLabs/dioxus" }
+dioxus-hooks = { git = "https://github.com/DioxusLabs/dioxus" }
 
 
 [profile]
